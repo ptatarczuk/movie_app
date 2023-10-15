@@ -1,6 +1,8 @@
 # movie_app
 Final project for web module using MERN Stack !
 
+Feel free to review the code but unfortunetly credentials to database have been lost. 
+
 # Technologies
 
 <a  href="https://reactjs.org/"  title="React"><img  src="https://github.com/get-icon/geticon/raw/master/icons/react.svg"  alt="React"  width="50px"  height="50px"></a>
