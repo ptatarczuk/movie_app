@@ -1,0 +1,57 @@
+.moviesLists {
+    margin-top: 24vh;
+    margin-right: 60px;
+    margin-left: 60px
+}
+
+.slick-slide {
+    margin-right: 0;
+}
+
+.slick-list {
+    margin-right: 0;
+}
+
+.actionPacked .slick-list {
+    width: 65%;
+    margin-left: 680px;
+
+}
+
+.laughOutLoud .slick-list {
+    width: 65%;
+    margin-right: 680px;
+}
+
+.playingNow,
+.popularList,
+.actionPacked,
+.laughOutLoud,
+.dramaMoviesList {
+    margin-bottom: 35px;
+}
+
+div.laughOutLoudTitle {
+    position: relative;
+    top: 195px;
+    left: 1453px;
+}
+
+div.actionTitle {
+    position: relative;
+    top: 198px;
+    left: 87px;
+}
+
+.slick-prev:before {
+    content: "<";
+    color: white;
+    font-size: 30px;
+}
+
+.slick-next:before {
+    content: ">";
+    color: white;
+    font-size: 30px;
+}
+

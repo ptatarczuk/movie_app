@@ -1,0 +1,35 @@
+@import url(../../colors.css);
+
+div.css-19r6kue-MuiContainer-root {
+position: fixed;
+background: #23252ce8;
+height: 100px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding: 20px;
+min-width: 100%;
+z-index: 100;
+}
+
+a.css-oznco6-MuiTypography-root {
+margin-right: 60px;
+}
+
+button.css-hgojsm-MuiButtonBase-root-MuiButton-root { 
+margin-right: 40px;
+}
+
+
+p.css-ahj2mt-MuiTypography-root {
+    margin: 0;
+        font-family: 'Poppins';
+        font-weight: 800;
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        font-size: x-large;
+        margin-right: 15px;
+    }
+
+div.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+background-color: #23252ce8 
+}

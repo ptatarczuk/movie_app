@@ -1,0 +1,233 @@
+@import url(../../colors.css);
+
+span.title {
+    font-size: 30px;
+}
+
+span.year,
+span.runtime {
+    font-size: small;
+    margin: 0 20px;
+}
+
+div.yourRating {
+    margin-right: 20px;
+}
+
+div.yearContainer,
+div.runtimeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+div.movieWeb {
+    width: 90%;
+    min-height: 1500px;
+    padding: 0px;
+    margin-left: auto;
+    margin-top: 100px; 
+    margin-right: auto;
+    margin-bottom: auto;
+    background: #1D2043;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.poster {
+    width: 90%;
+    height: 1400px;
+    background: #252953;
+    opacity: 0.95;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+div.big-poster {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+div.big-poster > img {
+    width: 100%;
+}
+
+div.small-poster {
+    width: 29%;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    z-index: 1;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+div.small-poster > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+div.allInfo {
+    box-sizing: border-box;
+    width: 50%;
+    min-height: 100px;
+    background: #252953;
+    opacity: 0.95;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+}
+
+div.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 180px;
+}
+
+span.css-iljtu2-MuiRating-root {
+    margin: 10px
+}
+
+
+div.yourRating {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+
+div.webRating {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+div.additionInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 34px;
+}
+
+div.reviews {
+    width: 90%;
+    min-height: 300px;
+    background: #252953;
+    margin: 10px;
+
+}
+
+div.reviewInput {
+    width: 90%;
+    min-height: 300px;
+    background: #252953;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.allComents {
+    display: flex;
+    flex-direction: column;
+}
+
+div.usersReviews {
+    display: flex;
+    flex-direction: row;
+}
+
+div.userInfo {
+    display: flex;
+    flex-direction: inherit;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 70px;
+}
+
+h3.name {
+    margin-top: 40px;
+}
+
+
+.rating svg.css-i4bv87-MuiSvgIcon-root {
+    /* position: relative;
+    left: 34px */
+}
+
+.movieInfo > button {
+    background: #252953;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.movieInfo > button:hover {
+    background: #1D2043;
+}
+
+
+div.plot {
+    width: 90%;
+    min-height: 300px;
+    background: #252953;
+    margin: 10px;
+}
+
+div.directors {
+    width: 90%;
+    min-height: 300px;
+    background: #252953;
+    margin: 10px;
+}
+
+div.actors {
+    width: 90%;
+    min-height: 300px;
+    background: #252953;
+    margin: 10px;
+}
+
+div.css-1ps6pg7-MuiPaper-root {
+padding: 40px 20px;
+    margin-left: 68px;
+    margin-top: 10px;
+    width: 90%;
+    background: #9ea2c812;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+div.movieInfo {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+form.css-otp49b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.css-sghohy-MuiButtonBase-root-MuiButton-root {
+margin: 20px
+}

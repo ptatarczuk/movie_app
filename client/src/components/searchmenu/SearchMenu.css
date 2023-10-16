@@ -1,0 +1,64 @@
+@import url(../../colors.css);
+
+.SearchMenu {
+  /* background-color: bisque; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchField {
+  position: relative;
+  margin-top: 5rem;
+  /* background-color: aquamarine; */
+}
+
+.input {
+  background-color: var(--dark-mode-primary);
+  color: var(--dark-mode-text);
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  padding-left: 0.5rem;
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.input::placeholder {
+  color: var(--dark-mode-text);
+}
+
+.FilterButtons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: var(--dark-mode-primary);
+  border: none;
+  border-radius: 20px;
+  height: 2em;
+  width: 10em;
+  cursor: pointer;
+  display: block;
+  margin-top: 1em;
+  color: var(--dark-mode-text);
+  text-transform: uppercase;
+}
+
+.Button:hover {
+  background-color: var(--dark-mode-text);
+  color: var(--dark-mode-primary)
+}
+
+  .active {
+    background-color: var(--dark-mode-text);
+    color: var(--dark-mode-primary)
+  }

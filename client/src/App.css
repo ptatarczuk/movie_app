@@ -1,0 +1,20 @@
+@import url(./colors.css);
+
+
+.MainDisplay {
+  background-color: var(--dark-mode-background);
+  width: 100vw;
+  height: calc(100vh - 20vh);
+}
+
+svg.css-tzssek-MuiSvgIcon-root {
+  position: fixed;
+  right: 20px;
+  top: 22px;
+}
+
+
+body {
+  min-height: 100%;
+  background-color: #262932;
+}
